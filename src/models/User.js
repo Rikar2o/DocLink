@@ -4,6 +4,7 @@ const userSchema = new Schema ({
     Name: {type: String, required:true},
     number_Id: {type: Number, required:true},
     email: {type: String, required:true},
+    password:{type: String, require:true},
     address: {type: String, required:true},
     phone_Number: {type: Number, required:true},
     rol: {type: String, required:true},
